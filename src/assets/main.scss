@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
+
+:root {
+  --background-color-primary: #ffffff;
+  --background-color-secondary: #f1f5f9;
+  --background-color-mobile: #1e293b;
+  --accent-color: #dd1b16;
+  --secondary-accent-color: #a6120d;
+  --text-primary-color: #334155;
+  --text-secondary-color: #6b7280;
+
+  &.dark-theme {}
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-primary-color);
+  background-color: var(--background-color-primary);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+  div.container {
+
+    & div.content {
+      box-sizing: border-box;
+      max-width: 1280px;
+      margin: auto;
+      padding: 0 30px;
+
+      @media only screen and (max-width: 1200px) {
+        padding: 0 16px;
+        max-width: 736px;
+      }
+    }
+  }
+
+  & h1 {
+    font-weight: 600;
+    font-size: 72px;
+
+    @media only screen and (max-width: 1200px) {
+      font-size: 40px;
+    }
+  }
+
+  & h2 {
+    font-size: 30px;
+
+    @media only screen and (max-width: 1200px) {
+      // font-size: 18px;
+    }
+
+  }
+
+  & h3 {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--accent-color);
+  }
+
+  & p {
+    font-weight: 400;
+    color: var(--text-secondary-color);
+  }
+
+  & button {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  & ul,
+  li,
+  button {
+    all: unset;
+  }
+}
+
+a {
+  all: unset;
+}
