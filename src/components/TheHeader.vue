@@ -22,13 +22,16 @@
                     <li class="list-item new">
                         <RouterLink to="/agencies">Consultants</RouterLink>
                     </li>
-                    <li @click="router.push(`/job-alerts`)" class="list-item">Job Alerts</li>
+                    <li @click="router.push(`/job-alerts`)"
+                        class="list-item">Job Alerts</li>
                     <!-- <li class="list-item">Learn</li> -->
                 </ul>
                 <ul class="cta-items">
                     <li class="cta-item"><button @click="router.push('/agencies')">Hire a Consultant</button></li>
-                    <li @click="router.push(`/login`)" class="cta-item"><button>Post a Job</button></li>
-                    <li @click="router.push(`/login`)" class="cta-item"><button>Login</button></li>
+                    <li @click="router.push(`/login`)"
+                        class="cta-item"><button>Post a Job</button></li>
+                    <li @click="router.push(`/login`)"
+                        class="cta-item"><button>Login</button></li>
                 </ul>
             </div>
 
@@ -43,23 +46,29 @@
                 </RouterLink>
                 <div @click="menuOpen = !menuOpen"
                      class="hamburger">
-                    <img v-if="!menuOpen"
-                         src="../assets/bars-solid.svg"
-                         alt="">
-                    <img v-else
-                         src="../assets/xmark-solid.svg"
-                         alt="">
+
+                    <i v-if="!menuOpen"
+                       class="fa-solid fa-bars"></i>
+                    <i v-else
+                       class="fa-solid fa-xmark"></i>
                 </div>
             </div>
         </div>
         <div :class="{ menu: true, open: menuOpen }">
             <ul class="menu-items">
-                <li @click="router.push('/jobs')" class="menu-item">Jobs</li>
-                <li @click="router.push('/hire-angular-developers')" class="menu-item"><RouterLink to="/hire-angular-developers">Hire Angular developers</RouterLink></li>
-                <li @click="router.push('/agencies')" class="menu-item new">Consultants</li>
-                <li @click="router.push(`/job-alerts`)" class="menu-item">Job Alerts</li>
+                <li @click="router.push('/jobs')"
+                    class="menu-item">Jobs</li>
+                <li @click="router.push('/hire-angular-developers')"
+                    class="menu-item">
+                    <RouterLink to="/hire-angular-developers">Hire Angular developers</RouterLink>
+                </li>
+                <li @click="router.push('/agencies')"
+                    class="menu-item new">Consultants</li>
+                <li @click="router.push(`/job-alerts`)"
+                    class="menu-item">Job Alerts</li>
                 <!-- <li class="menu-item">Learn</li> -->
-                <li @click="router.push(`/login`)" class="menu-item">Post a Job</li>
+                <li @click="router.push(`/login`)"
+                    class="menu-item">Post a Job</li>
             </ul>
         </div>
     </div>
@@ -241,8 +250,8 @@ div.container {
                 }
 
                 & div.hamburger {
-                    & img {
-                        width: 25px;
+                    & i {
+                        font-size: 1.7rem;
 
                         &:hover {
                             cursor: pointer;
@@ -307,5 +316,4 @@ div.menu {
     @media only screen and (min-width: 1200px) {
         display: none;
     }
-}
-</style>
+}</style>
