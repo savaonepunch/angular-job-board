@@ -16,7 +16,7 @@
                         <h4>React Jobs</h4>
                     </div>
                     <div class="card">
-                        <img src="../assets/brand-logos/vuejs-icon.svg" alt="">
+                        <img src="../assets/brand-logos/vueicon.png" alt="">
                         <h4>Vue Jobs</h4>
                     </div>
                     <div class="card">
@@ -24,7 +24,7 @@
                         <h4>Tailwind Jobs</h4>
                     </div>
                     <div class="card">
-                        <img src="../assets/brand-logos/typescript-icon.svg" alt="">
+                        <img src="../assets/brand-logos/typescript.png" alt="">
                         <h4>TypeScript Jobs</h4>
                     </div>
                     <div class="card">
