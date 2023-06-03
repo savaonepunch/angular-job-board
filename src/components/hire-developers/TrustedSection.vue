@@ -5,13 +5,13 @@
             <h2 style="margin-top: 0;">Who is hiring through AngularJobs?</h2>
             <p>AngularJobs was founded back in 2016. Since then we have helped more than 1200 companies (and counting) to hire Angular developers, from small startups to world's leading organizations.</p>
             <div class="brands">
-                <img src="../../assets/marquee-logos/apple-logo.svg" alt="">
-                <img src="../../assets/marquee-logos/about-you-logo.svg" alt="">
-                <img src="../../assets/marquee-logos/backmarket-logo.svg" alt="">
-                <img src="../../assets/marquee-logos/Coca-Cola_logo.svg" alt="">
-                <img src="../../assets/marquee-logos/gitlab-logo.svg" alt="">
-                <img src="../../assets/marquee-logos/roku-logo.svg" alt="">
-                <img src="../../assets/marquee-logos/telefonica-logo.svg" alt="">
+                <img src="../../assets/marquee-logos/apple-logo.svg?url" alt="">
+                <img src="../../assets/marquee-logos/about-you-logo.svg?url" alt="">
+                <img src="../../assets/marquee-logos/backmarket-logo.svg?url" alt="">
+                <img src="../../assets/marquee-logos/Coca-Cola_logo.svg?url" alt="">
+                <img src="../../assets/marquee-logos/gitlab-logo.svg?url" alt="">
+                <img src="../../assets/marquee-logos/roku-logo.svg?url" alt="">
+                <img src="../../assets/marquee-logos/telefonica-logo.svg?url" alt="">
             </div>
         </div>
     </div>
