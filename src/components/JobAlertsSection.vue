@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                             <div class="job">
-                                <img src="../assets/agency-logos/gitlab-icon.svg"
+                                <img src="../assets/agency-logos/gitlab-icon.png"
                                      alt="">
                                 <div class="job-content">
                                     <h4>Full-Stack Software Engineer</h4>
